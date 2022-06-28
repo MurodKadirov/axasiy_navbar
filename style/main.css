@@ -1,0 +1,104 @@
+html{
+    overflow-x: hidden;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+.border_b{
+    border-bottom: 1px solid grey;
+}
+
+.nav__img{
+    max-width: 25px;
+    font-size: 14px;
+}
+
+.navp{
+    max-width: 20px;
+}
+
+.nav__title{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+
+.nav-link{
+    padding: 20px 0 !important;
+    font-size: 17px !important;
+    color: black !important;
+}
+
+.icons{
+    display: inline-block;
+    margin-right: -20px;
+}
+
+.main__window{
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.product h4{
+    margin-bottom: 10px;
+    transition: .5s;
+}
+
+.product h4:hover{
+    color: blue;
+}
+
+.none{
+    display: none;
+    transition: .5s;
+}
+
+.nav__hover{
+    transition: .5s;
+}
+
+.nav__hover:hover{
+    color: blue !important;
+}
+
+.box{
+    border: 2px solid black;
+    width: 500px;
+    height: 150px;
+    border-radius: 20px;
+    padding: 30px;
+    background-color: rgb(53, 53, 228); 
+}
+
+.box1{
+    position: absolute;
+    top: 60px;
+    right: -370px;
+
+}
+
+.price__btn{
+    width: 200px;
+}
+
+.span1{
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.active{
+    color: blue;
+}
+
+.account{
+    margin-top: -200px;
+    margin-right: -600px;
+}
